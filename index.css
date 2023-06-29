@@ -1,0 +1,19 @@
+body {
+    background-color: gray !important;
+}
+
+main {
+    color: rgb(0, 255, 21);
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    width: 99%;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
