@@ -1,4 +1,4 @@
 AuthUserFile .htxpasuy
 AuthType Basic
-AuthName "old_quotes"
+AuthName "Access the Old Quotes"
 Require valid-user
