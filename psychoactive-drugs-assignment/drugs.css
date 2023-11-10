@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'OldUyghur';
+    src: url(NotoSerifOldUyghur.ttf);
+
+}
+
+header {
+    font-family: 'OldUyghur';
+    letter-spacing: 1px;
+    text-align: center;
+    background: aquamarine;
+    padding: 60px;
+}
+
+footer {
+    text-align: center;
+}
+
+.Stimulants{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    font-family: 'OldUyghur';
+    text-align: center;
+}
+
+.Physiological {
+    
+    padding: 0px 50px 0px 50px;
+    color: black;
+}
+
+.Psychological {
+    padding: 0px 50px 0px 50px;
+    color: black;
+}
