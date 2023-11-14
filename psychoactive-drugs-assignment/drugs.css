@@ -4,6 +4,10 @@
 
 }
 
+body {
+    background: rgb(182, 180, 180);
+}
+
 header {
     font-family: 'OldUyghur';
     letter-spacing: 1px;
@@ -42,23 +46,62 @@ nav a.active {
     color: white;
 }
 
-.Stimulants{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
-    font-family: 'OldUyghur';
+p, h1, h2, h3, h4, h5, h6, li {
+    font-family: "OldUyghur";
+}
+
+hr {
+    width: 50%;
     text-align: center;
 }
 
-.Physiological {
-    
-    padding: 0px 50px 0px 50px;
-    color: black;
+.physiological-psychological-effects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    text-align: center;
 }
 
-.Psychological {
+.physiological {
     padding: 0px 50px 0px 50px;
     color: black;
+    width: 30%;
+    text-align: end;
+}
+
+.psychological {
+    padding: 0px 50px 0px 50px;
+    color: black;
+    width: 30%;
+    text-align: start;
+}
+
+.other-info {
+    text-align: center;
+}
+
+.category-summary {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    text-align: center;
+}
+
+.category-summary h4 {
+    padding: 0px 100px 0px 100px;
+}
+
+.citations {
+    padding: 10px;
+    padding-left: 64px;
+    text-indent: -60px;
+}
+
+.centered-image {
+    display: block;
+    margin: auto;
 }
