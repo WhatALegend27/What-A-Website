@@ -8,6 +8,11 @@ body {
     background: rgb(182, 180, 180);
 }
 
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 header {
     font-family: 'OldUyghur';
     letter-spacing: 1px;
