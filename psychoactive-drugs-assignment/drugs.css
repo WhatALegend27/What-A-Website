@@ -60,6 +60,10 @@ hr {
     text-align: center;
 }
 
+main h4 {
+    text-decoration-line: underline;
+}
+
 .physiological-psychological-effects {
     display: flex;
     flex-flow: row wrap;
