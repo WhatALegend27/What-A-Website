@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'OldUyghur';
+    src: url(NotoSerifOldUyghur.ttf);
+
+}
+
+body {
+    background: rgb(182, 180, 180);
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    font-family: 'OldUyghur';
+    letter-spacing: 1px;
+    text-align: center;
+    background: aquamarine;
+    padding: 60px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'OldUyghur';
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'OldUyghur';
+    font-size: 15px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a.active {
+    background-color: #12ab78;
+    color: white;
+}
+
+p, h1, h2, h3, h4, h5, h6, li {
+    font-family: "OldUyghur";
+}
+
+hr {
+    width: 50%;
+    text-align: center;
+}
+
+main h4 {
+    text-decoration-line: underline;
+}
+
+.physiological-psychological-effects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    text-align: center;
+}
+
+.physiological {
+    padding: 0px 50px 0px 50px;
+    color: black;
+    width: 30%;
+    text-align: end;
+}
+
+.psychological {
+    padding: 0px 50px 0px 50px;
+    color: black;
+    width: 30%;
+    text-align: start;
+}
+
+.other-info {
+    text-align: center;
+}
+
+.category-summary-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.category-summary {
+    padding: 0px 50px 0px 50px;
+    width: 30;
+}
+
+.category-summary h4 {
+    padding: 0px 100px 0px 100px;
+}
+
+.citations {
+    padding: 10px;
+    padding-left: 64px;
+    text-indent: -60px;
+}
+
+.centered-image {
+    display: block;
+    margin: auto;
+}
